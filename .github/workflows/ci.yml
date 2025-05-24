@@ -27,7 +27,7 @@ jobs:
         run: chmod +x ./node_modules/.bin/mocha
  
       - name: Verificar o caminho do mocha
-        run: 1s -1 ./node_modules/.bin/mocha
-
-      - name: Rodar os testes com Mocha
-        run: npx mocha  
+        run: ls -l ./node_modules/.bin/mocha
+ 
+      - name: Rodar os teste com Mocha
+        run: npx mocha
