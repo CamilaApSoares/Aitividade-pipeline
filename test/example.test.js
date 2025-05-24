@@ -4,7 +4,7 @@ describe('Exemplo de teste', function(){
 
     it('Deve somar dois números corretamente', function(){
 
-    assert.strictEqual(1+1, 2);
+    assert.strictEqual(1+5, 2);
     });
 
 });
